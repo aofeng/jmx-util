@@ -15,9 +15,6 @@ public abstract class AbstractFilter implements IntrospectionFilter {
 
     protected List<String> filterNames = new ArrayList<String>();
     
-    /*
-     * @see com.asiainfo.scp4j.jmx.IntrospectionFilter#filter(java.lang.String)
-     */
     public boolean filter(String name) {
         if (null == name) {
             return true;
