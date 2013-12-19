@@ -18,7 +18,9 @@ jmx-util
 使用说明
 ------
 1、将`jmx-util-1.0.0.jar`加入项目的classpath。
+
 2、编写一个POJO类。[源代码](https://github.com/aofeng/jmx-util/blob/master/example/cn/aofeng/jmx/mbean/People.java)
+
 3、编写注册MBean对象的代码。[完整的源代码](https://github.com/aofeng/jmx-util/blob/master/example/cn/aofeng/jmx/mbean/HelloJmx.java)
 
 ```Java
