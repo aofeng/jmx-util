@@ -94,10 +94,10 @@ public static class CustomMethodFilter extends MethodFilter {
 下载
 ------
 binary
-* [1.0.0](https://github.com/aofeng/jmx-util/blob/master/dist/jmx-util-1.0.0.jar)
+* [1.0.0](https://github.com/aofeng/jmx-util/raw/master/dist/jmx-util-1.0.0.jar)
 
 source
-* [1.0.0](https://github.com/aofeng/jmx-util/blob/master/dist/jmx-util-1.0.0-src.jar)
+* [1.0.0](https://github.com/aofeng/jmx-util/raw/master/dist/jmx-util-1.0.0-src.jar)
 
 JMX相关参考资料
 ------
