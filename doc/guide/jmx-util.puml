@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class DynamicMBean
+class IntrospectionMBean
+interface IntrospectionFilter {
+    boolean filter(String name)
+}
+abstract class AbstractFilter {
+}
+class AttributeFilter {
+}
+class MethodFilter {
+}
+annotation Description {
+    String value()
+}
+
+DynamicMBean <|-- IntrospectionMBean
+
+IntrospectionFilter <|.. AbstractFilter
+AbstractFilter <|-- AttributeFilter
+AbstractFilter <|-- MethodFilter
+
+IntrospectionMBean *-left- Description
+IntrospectionMBean *-right- IntrospectionFilter
+
+@enduml
