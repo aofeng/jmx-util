@@ -3,7 +3,7 @@
     
     <groupId>io.github.aofeng</groupId>
     <artifactId>jmx-util</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <name>jmx-util</name>
     <url>https://github.com/aofeng/jmx-util</url>
     <description>封装普通的Java对象（POJO），使之成为符合JMX规范的MBean。1）根据指定的接口，暴露方法和属性。2）可自定义过滤器，过滤指定的方法和属性。</description>
